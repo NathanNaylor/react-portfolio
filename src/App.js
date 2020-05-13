@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import PortfolioNavbar from "./components/NavBar";
+import Projects from "./pages/Projects"
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -10,10 +10,18 @@ function App() {
       <div className="App">
         <PortfolioNavbar />
         <Switch>
-          <Route exact path="/">hello</Route>
-          <Route exact path="/about"></Route>
-          <Route exact path="/projects"></Route>
-          <Route exact path="/contact"></Route>
+          <Route exact path="/">
+            hello
+          </Route>
+          <Route exact path="/about">
+            about
+          </Route>
+          <Route exact path="/projects">
+            <Projects/>
+          </Route>
+          <Route exact path="/contact">
+            contact
+          </Route>
         </Switch>
       </div>
     </BrowserRouter>
