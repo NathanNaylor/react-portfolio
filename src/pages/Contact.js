@@ -2,19 +2,19 @@ import React from "react";
 
 const Contact = () => {
   return (
-      <div class="container">
-        <div class="row">
-          <div class="col">
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <h3>Here are a few ways to contact me!</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4"></div>
-          <div class="col">
+        <div className="row">
+          <div className="col-4"></div>
+          <div className="col">
             <ul>
               <li>
                 <p>
-                  <a target="_blank" href="https://github.com/NathanNaylor">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/NathanNaylor">
                     GitHub
                   </a>
                 </p>
@@ -22,7 +22,7 @@ const Contact = () => {
               <li>
                 <p>
                   <a
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/nathan-naylor-463aa61a2/"
                   >
                     LinkedIn
@@ -37,7 +37,7 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-          <div class="col-4"></div>
+          <div className="col-4"></div>
         </div>
       </div>
   );

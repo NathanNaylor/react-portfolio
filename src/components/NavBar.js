@@ -25,7 +25,7 @@ const PortfolioNavbar = () => {
               <NavLink href="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href="/portfolio">Projects</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/contact">Contact</NavLink>
