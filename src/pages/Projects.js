@@ -1,6 +1,11 @@
 import React from "react";
+import Project from "../components/Project"
 
 const Projects = () => {
+function createProj(link, src) {
+
+}
+
   return (
     <div id="portContainer " class="container ">
     <div class="row ">
