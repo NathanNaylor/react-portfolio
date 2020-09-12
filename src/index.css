@@ -82,19 +82,23 @@ code {
 
 .wrap {
   position: relative;
-  margin: 0 auto;
+  margin-top: 150px;
   text-align: center;
   border: solid;
   border-color: rgb(52,58,64);
+  background: rgb(52,58,64);
+  fill: rgb(52,58,64);
+  width: 100vw
 }
 
-.wrap h2 {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: rgb(52,58,64);
+.wrap p {
   color: white;
+  
+}
+
+.wrap p a {
+  color: white;
+  
 }
 
 h1 {
