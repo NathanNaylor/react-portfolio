@@ -12,8 +12,8 @@ const Portfolio = () => {
   return (
     <div id="portContainer " className="container ">
       <div className="row ">
-        <div className="col-8 ">
-          <h1>Projects</h1>
+        <div className="col-12 ">
+          <h1 style={{marginBottom: "30px"}}>Projects</h1>
           <div className="row ">{renderProj()}</div>
         </div>
       </div>
