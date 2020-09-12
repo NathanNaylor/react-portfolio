@@ -16,19 +16,19 @@ const PortfolioNavbar = () => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/">Nathan Naylor</NavbarBrand>
+      <Navbar color="dark" dark expand="md" fixed="top">
+        <NavbarBrand href="#">Nathan Naylor</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/about">About</NavLink>
+              <NavLink href="#about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/portfolio">Projects</NavLink>
+              <NavLink href="#portfolio">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="#contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
