@@ -32,9 +32,6 @@ const Contact = () => {
               <li>
                 <p>Email: nathannaylors@gmail.com</p>
               </li>
-              <li>
-                <p>Phone #: (858) 699-0973</p>
-              </li>
             </ul>
           </div>
           <div className="col-4"></div>
