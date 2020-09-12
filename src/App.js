@@ -2,33 +2,26 @@ import React from "react";
 import "./App.css";
 import PortfolioNavbar from "./components/NavBar";
 import Portfolio from "./pages/Portfolio";
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import Footer from "./components/Footer"
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <PortfolioNavbar />
-        <Switch>
-          <Route exact path="/">
-          <About />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/portfolio">
-            <Portfolio/>
-          </Route>
-          <Route exact path="/contact">
-            <Contact/>
-          </Route>
-        </Switch>
-        <Footer />
+    <div className="App">
+      <img alt="Mountain Panorama" src="../Assets/Images/pano-mountains.jpg" width="100%"/>
+      <PortfolioNavbar />
+      <div id="about">
+        <About />
       </div>
-    </BrowserRouter>
+      <div id="portfolio">
+        <Portfolio />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
+    </div>
   );
 }
 
