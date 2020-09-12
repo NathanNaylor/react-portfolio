@@ -16,9 +16,7 @@ const Project = ({ project }) => {
   }
   
   return (
-    <div className="mb-3 col-sm-12 col-md-6 ">
-      <div className="wrap ">
-        <div className="Wrap">
+    <div className="mb-3 col-sm-12 col-md-6 col-lg-4 ">
           <div style={{opacity: opacity}}>
             <img
               className="img-fluid size projectImg"
@@ -81,8 +79,6 @@ const Project = ({ project }) => {
               </Modal>
             </div>
         </div>
-      </div>
-    </div>
   );
 };
 
