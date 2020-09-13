@@ -5,6 +5,7 @@
     "imageSrc": "Assets/Images/to-d-or-not-to-d.png",
     "live": "https://to-d-or-not-to-d.herokuapp.com/",
     "repo": "https://github.com/NathanNaylor/To-D-Or-Not-To-D",
+    "icon": "Assets/Images/dnd-icon.png",
     "description": "To D or Not To D is a Dungeons and Dragons 5th Edition character creator and character vault. Users are able generate their own fully playable characters after answering a few short questions. This will allow new players, old players, and Dungeon Masters to quickly create characters for any situation. This application was made using the D&D 5e API to generate items, spells, and abilities for characters and MySQL for storing data and authenticating users."
   },
   {
@@ -13,6 +14,7 @@
     "imageSrc": "Assets/Images/barhop.png",
     "live": "https://nathannaylor.github.io/bar-hop-webapp/",
     "repo": "https://github.com/NathanNaylor/bar-hop-webapp",
+    "icon": "Assets/Images/barhop-icon.png",
     "description": "BarHop is a web application designed to allow it's users to better navigate their local breweries, and to allow them to create their own custom bar crawls. It was created using OpenBreweryDB to display local breweries based off zipcode, and the Google Maps API in order to display the different breweries on the route."
   },
   {
@@ -21,70 +23,7 @@
     "imageSrc": "Assets/Images/tent-buddy.png",
     "live": "https://tent-buddy.herokuapp.com/",
     "repo": "https://github.com/macias-daniel/tent-buddy",
+    "icon": "Assets/Images/tentbuddy-icon.png",
     "description": "Tent Buddy is a widget based outdoors companion webapp meant to prepare user for their next outdoor adventure. It was created using react and it currently utilizes four different APIs to gather and display data to users. It features a journal/checklist to prepare for trips, the Open Weather API to determine nearby weather conditions, the ClimateCell API to determine hazardous conditions, and the National Park API as well as the REI API to find park information and hiking trails."
-  },
-  {
-    "id": 4,
-    "name": "Weather Dashboard",
-    "imageSrc": "Assets/Images/weather-app.png",
-    "live": "https://nathannaylor.github.io/Open-Weather-App/",
-    "repo": "https://github.com/NathanNaylor/Open-Weather-App",
-    "description": ""
-  },
-  {
-    "id": 5,
-    "name": "Workday Planner",
-    "imageSrc": "Assets/Images/workday.png",
-    "live": "https://nathannaylor.github.io/Work-Day-Scheduler/",
-    "repo": "https://github.com/NathanNaylor/Work-Day-Scheduler",
-    "description": ""
-  },
-  {
-    "id": 6,
-    "name": "Note Taker",
-    "imageSrc": "Assets/Images/notetaker.png",
-    "live": "https://nathannaylor-note-taker.herokuapp.com/",
-    "repo": "https://github.com/NathanNaylor/note-taker",
-    "description": ""
-  },
-  {
-    "id": 7,
-    "name": "Burger Logger",
-    "imageSrc": "Assets/Images/burgerlogger.png",
-    "live": "https://nathannaylor-eat-da-burger.herokuapp.com/",
-    "repo": "https://github.com/NathanNaylor/burger",
-    "description": ""
-  },
-  {
-    "id": 8,
-    "name": "Code Quiz",
-    "imageSrc": "Assets/Images/codequiz.png",
-    "live": "https://nathannaylor.github.io/Code-Quiz/",
-    "repo": "https://github.com/NathanNaylor/Code-Quiz",
-    "description": ""
-  },
-  {
-    "id": 9,
-    "name": "ReadMe Generator",
-    "imageSrc": "Assets/Images/readme.gif",
-    "live": "",
-    "repo": "https://github.com/NathanNaylor/readme-generator",
-    "description": ""
-  },
-  {
-    "id": 10,
-    "name": "Budget Tracker",
-    "imageSrc": "Assets/Images/budget-tracker.png",
-    "live": "https://nathannaylor-budgettracker.herokuapp.com/",
-    "repo": "https://github.com/NathanNaylor/budget-tracker",
-    "description": ""
-  },
-  {
-    "id": 10,
-    "name": "Hot Restraunt",
-    "imageSrc": "Assets/Images/hot-restaurant.png",
-    "live": "https://nathannaylor-hot-restaurant.herokuapp.com/",
-    "repo": "https://github.com/NathanNaylor/hot-restaurant",
-    "description": ""
   }
 ]
