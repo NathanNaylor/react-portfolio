@@ -4,12 +4,20 @@ import PortfolioNavbar from "./components/NavBar";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import { Button } from "reactstrap";
 
 function App() {
   return (
     <div className="App">
-      <img alt="Mountain Panorama" src="../Assets/Images/pano-mountains.jpg" width="100%"/>
+      <div className="intro">
+        <h1 className="myName">Nathan Naylor</h1>
+        <h2 className="title">Full Stack Web Developer</h2>
+        <Button className="introButton bg-dark">
+          <a href="#about" rel="noopener noreferrer">
+            Take a Look
+          </a>
+        </Button>
+      </div>
       <PortfolioNavbar />
       <div id="about">
         <About />
@@ -20,7 +28,6 @@ function App() {
       <div id="contact" className="wrap">
         <Contact />
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
