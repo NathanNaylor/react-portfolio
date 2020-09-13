@@ -17,10 +17,10 @@ function App() {
       <div id="portfolio">
         <Portfolio />
       </div>
-      <div id="contact">
+      <div id="contact" className="wrap">
         <Contact />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
