@@ -21,8 +21,9 @@ const Project = ({ project }) => {
             <img
               className="img-fluid size projectImg"
               alt="project screenshot"
-              src={project.imageSrc}
+              src={project.icon}
               width="250px"
+              height="250px"
               onClick={toggle}
               onMouseEnter={mouseEnter}
               onMouseLeave={mouseLeave}
