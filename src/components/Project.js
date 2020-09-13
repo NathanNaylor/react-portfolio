@@ -17,18 +17,15 @@ const Project = ({ project }) => {
   
   return (
     <div className="mb-3 col-sm-12 col-md-6 col-lg-4 ">
-          <div style={{opacity: opacity}}>
             <img
-              className="img-fluid size projectImg"
-              alt="project screenshot"
+              className="size projectIcon"
+              alt={project.name}
               src={project.icon}
-              width="250px"
-              height="250px"
               onClick={toggle}
               onMouseEnter={mouseEnter}
               onMouseLeave={mouseLeave}
+              style={{opacity: opacity}}
             /> 
-          </div>
             <div className="container">
               <Modal
                 size="lg"
